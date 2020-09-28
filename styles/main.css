@@ -1,6 +1,6 @@
 body {
   background-color: #000000;
-  background-image: url("../images/background-imgs/home-2.jpg");
+  background-image: url("../images/background-imgs/bg-1.jpg");
   background-repeat: no-repeat;
   /* background-position: 0% 50%; */
   background-size: cover;
@@ -33,6 +33,7 @@ body {
     font-size: 3.5rem;
   }
 }
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
