@@ -37,6 +37,11 @@ body {
   user-select: none;
 }
 
+form {
+  width: 50%;
+  margin: 0 auto;
+}
+
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
