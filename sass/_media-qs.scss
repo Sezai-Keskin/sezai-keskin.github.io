@@ -2,4 +2,12 @@
     .bd-placeholder-img-lg {
         font-size: 3.5rem;
     }
+
+    .jumbotron {
+        background-image: url("../images/aboutme/aboutme.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-color: transparent;
+    }
 }
