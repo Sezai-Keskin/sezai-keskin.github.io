@@ -38,6 +38,15 @@ a:hover {
   font-size: 1.6rem;
 }
 
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 .jumbotron {
   background-image: url("../images/aboutme/aboutme.png");
   background-repeat: no-repeat;
@@ -55,18 +64,17 @@ label[class="form-check-label text-light"] {
   margin-left: 1rem;
 }
 
-.bd-placeholder-img {
-  font-size: 1.125rem;
-  text-anchor: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
+  }
+
+  .jumbotron {
+    background-image: url("../images/aboutme/aboutme.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: transparent;
   }
 }
 
